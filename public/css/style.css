@@ -1,0 +1,189 @@
+
+/* ==========================================================================
+        CSS Reset
+   ========================================================================== */
+/**/
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select
+{
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+abbr, acronym
+{
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+
+
+
+
+/* ==========================================================================
+        Global Styles
+   ========================================================================== */
+/**/
+
+
+*,*:after,*:before {
+    box-sizing: border-box
+}
+
+
+
+body {
+    background: #eceff1!important;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+     font-size: 14px;
+    line-height: 1.5;
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+.font {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.black-gradient-bg {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a { text-decoration: none;}
+
+.orange-gradient-bg {
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.red-gradient-bg1 {
+    background: #e43a15;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.yellow-gradient-bg1 {
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.shadow {
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.3);
+}
+
+.border-grey {border: 1px solid #ccc;}
+
+.full-width {
+    width: 100%;
+}
+
+.padding20 {
+    padding:20px;
+}
+
+
+.white-text {color:white;}
+
+.text-center {text-align: center;}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row-center {
+    display: flex;
+    align-items: center;
+
+}
+
+.flex-row-spaceEvenly {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row-justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.marginTp10 {margin-top: 10px;}
+.marginBtm10 {margin-bottom: 10px;}
+
+.marginTp20 {margin-top: 20px;}
+.marginBtm20 {margin-bottom: 20px;}
+
+.marginTp50 {margin-top: 50px;}
+.marginBtm50 {margin-bottom: 50px;}
+
+
+
+
+
+
+
+/* ==========================================================================
+        Body Styles
+   ========================================================================== */
+/**/
+
+a:hover { cursor: pointer;}
+header { color: white; height: 75px; }
+header li {margin-right: 10px;}
+header a {color: white; text-decoration: none;}
+
+
+
+
+.container {display: flex; align-items: center; flex-direction: column;  margin-top: 40px;}
+.container a { color: white; border-radius: 3px;}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}

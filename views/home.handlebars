@@ -1,0 +1,28 @@
+<h1>Add a Task</h1>
+
+<div class="todo-container">
+
+   <form action="todo" method="post" class="flex-row-spaceEvenly marginBtm50">
+      <input type="text" name="description" placeholder="what would you like to add"><br>
+      <button type="submit">Submit</button>
+   </form>
+
+
+    {{#each inComplete}}
+        <div class="todos flex-row-spaceEvenly marginBtm10">
+            <p>{{description}}</p>
+           <a href="/todo/{{id}}" class="orange-gradient-bg">Mark Complete</a>
+        </div>
+    {{/each}}
+
+
+    <h1 class="marginTp50 text-center"> Completed </h1>
+    {{#each complete}}
+     <div class="todos flex-row-spaceEvenly ">
+            <p>{{description}}</p>
+        </div>
+    {{/each}}
+
+
+
+</div>
